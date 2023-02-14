@@ -39,5 +39,12 @@ namespace Summator
 
             return firstName + lastName;
         }
+        
+                public static string Date(int v)
+        {
+            string dateTime = "7/11/2021";
+
+            return dateTime;
+        }
     }
 }
