@@ -31,5 +31,13 @@ namespace Summator
 
             return sum / arr.Length;
         }
+        
+         public static string Text(string FirstName, string LastName )
+        {
+            string firstName = FirstName;
+            string lastName = LastName;
+
+            return firstName + lastName;
+        }
     }
 }
